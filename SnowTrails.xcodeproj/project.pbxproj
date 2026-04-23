@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CCCA7C072F8FA80600320949 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = CCCA7C062F8FA80600320949 /* resorts.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CCCA7BF82F8FA7CA00320949 /* SnowTrails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowTrails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCA7C062F8FA80600320949 /* resorts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +39,7 @@
 			children = (
 				CCCA7BFA2F8FA7CA00320949 /* SnowTrails */,
 				CCCA7BF92F8FA7CA00320949 /* Products */,
+				CCCA7C062F8FA80600320949 /* resorts.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCA7C072F8FA80600320949 /* resorts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
